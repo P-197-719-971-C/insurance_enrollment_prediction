@@ -1,0 +1,20 @@
+{
+    "train_metrics": {
+        "accuracy": 0.892375,
+        "precision": 0.9087810745789896,
+        "recall": 0.9177971249240737,
+        "f1_score": 0.9132668479903294,
+        "roc_auc": 0.966873742705767
+    },
+    "test_metrics": {
+        "accuracy": 0.8965,
+        "precision": 0.9098883572567783,
+        "recall": 0.9238866396761134,
+        "f1_score": 0.9168340699075934,
+        "roc_auc": 0.9705273742425445
+    },
+    "overfitting_check": {
+        "train_test_auc_diff": -0.0036536315367775574,
+        "is_overfitting": false
+    }
+}

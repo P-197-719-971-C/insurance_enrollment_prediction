@@ -1,0 +1,11 @@
+# Minimal docker-compose for local development
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./results:/app/results
+    restart: unless-stopped
+
